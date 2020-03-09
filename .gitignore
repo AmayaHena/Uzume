@@ -1,0 +1,7 @@
+*.o
+*.hi
+
+.vscode
+
+uzume.so
+a.out
