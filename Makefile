@@ -15,7 +15,8 @@ CXX				=	ghc
 
 CXXFLAGS		=	-Wall -Werror
 
-SRC				=
+SRC				= 	src/parsing/Args.hs \
+					src/parsing/Char.hs
 
 OBJF			=	$(SRC:.hs=.o)
 
