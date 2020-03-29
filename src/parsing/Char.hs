@@ -5,7 +5,7 @@
 -- Char
 --
 
-module Char
+module PChar
 ( isChar,
   listIsChar
 ) where

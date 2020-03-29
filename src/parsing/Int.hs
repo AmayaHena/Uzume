@@ -5,7 +5,7 @@
 -- Int
 --
 
-module Int
+module PInt
 ( isDigit,
   listIsDigit
 ) where
