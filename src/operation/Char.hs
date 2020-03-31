@@ -16,6 +16,12 @@ cToI a = read a
 
 ---
 
+cToF :: [Char] -> Float
+cToF [] = 0
+cToF a = read a :: Float
+
+---
+
 convertSTOI :: [[Char]] -> Int -> [Int]
 convertSTOI [] a = []
 convertSTOI (l:ls) a = case (a > length (l:ls)) of
