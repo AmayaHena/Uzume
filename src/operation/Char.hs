@@ -7,6 +7,7 @@
 
 module OChar
 ( cToI,
+  cToF,
   lStrTOlInt
 ) where
 
