@@ -1,14 +1,15 @@
 # Uzume
 
-WORK IN PROGRESS
-
 A basic lib, I'm using for my projects
 
-If it can help you, enjoy
+---
 
 File quick description :
 
-Args : Parsing args in different ways
-Char : Parsing String (in progress)
+- check : checking things (return Bool only)
+- operation : convertion to something else, or evaluate something
+- parsing : classic function of parsing, for types, and binary arguments
 
-Documentation : later
+---
+
+Documentation : Github Wiki of this repo
