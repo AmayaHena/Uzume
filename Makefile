@@ -20,7 +20,8 @@ SRC				= 	src/parsing/Args.hs 	\
 					src/parsing/Int.hs		\
 					src/check/Int.hs		\
 					src/operation/Int.hs	\
-					src/operation/Char.hs
+					src/operation/Char.hs	\
+					src/operation/Maths.hs
 
 OBJF			=	$(SRC:.hs=.o)
 
