@@ -13,8 +13,8 @@ module PInt
 -- look at the current String and return
 -- True if it contains only numbers, False otherwise
 -- error case, return False
--- ex : True = isDigit "12345"
--- ex : False = isDigit "1a2b3c4d5"
+-- ex : isDigit "12345" = True
+-- ex : isDigit "1a2b3c4d5" = False
 
 isDigit :: [Char] -> Bool
 isDigit [] = False
@@ -27,8 +27,8 @@ isDigit s = case reads s :: [(Integer, String)] of
 -- look at the current String and return
 -- True if it contains only numbers, False otherwise
 -- error case, return False
--- ex : True = listIsDigit ["34","56"]
--- ex : False = listIsDigit ["34","5a6"]
+-- ex : listIsDigit ["34","56"] = True
+-- ex : listIsDigit ["34","5a6"] = False
 
 followList :: [String] -> Int -> Bool
 followList l n = case (n > 0) of

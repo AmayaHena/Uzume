@@ -14,7 +14,7 @@ module Args
 -- parse args for a specific option
 -- error case, return "undefined"
 -- ex : ./Example --foo bar
---      "bar" = ParseArgs args "--foo"
+--      ParseArgs args "--foo" = "bar"
 
 parseArg :: [String] -> String -> String
 parseArg [] s = "undefined"
@@ -27,7 +27,7 @@ parseArg (id:value:avs) s
 -- parse args for a specific String
 -- error case, return False
 -- ex : ./Example --foo bar -a -f
---      True = ParseArgs args "-a"
+--      ParseArgs args "-a" = True
 
 isArg :: [String] -> String -> Bool
 isArg [] s = False
@@ -40,7 +40,7 @@ isArg (av:avs) s
 -- tell you if the number of args is peer
 -- error case, return False
 -- ex : ./Example --foo bar -a -f
---      True = ParseArgs args
+--      ParseArgs args = True
 
 peerArg :: [String] -> Bool
 peerArg [] = False

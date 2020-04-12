@@ -12,8 +12,8 @@ module PChar
 
 -- look at the current String and return
 -- True if it contains only char, False otherwise
--- ex : True = isChar "abcde"
--- ex : False = isChar "a1b2c3d4e"
+-- ex : isChar "abcde" = True
+-- ex : isChar "a1b2c3d4e" = False
 
 isChar :: String -> Bool
 isChar [] = True
@@ -25,8 +25,8 @@ isChar (x:xs)
 
 -- look at the current String and return
 -- True if it contains only char, False otherwise
--- ex : True = listIsDigit ["ab","cd"]
--- ex : False = listIsDigit ["a1b2","cd"]
+-- ex : listIsDigit ["ab","cd"] = True
+-- ex : listIsDigit ["a1b2","cd"] = False
 
 followList :: [String] -> Int -> Bool
 followList l n = case (n > 0) of
