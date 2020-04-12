@@ -8,8 +8,6 @@
 module CInt
 ( inDiff,
   outDiff,
-  doMod,
-  doDiv,
   checkSort
 ) where
 
@@ -26,16 +24,6 @@ outDiff v min max
     | min > max = False
     | v >= min && v <= max = True
     | otherwise = False
-
----
-
-doDiv :: Int -> Int -> Int
-doDiv a b = a `div` b
-
----
-
-doMod :: Int -> Int -> Int
-doMod a b = a `mod` b
 
 ---
 
