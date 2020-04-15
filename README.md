@@ -1,6 +1,8 @@
 # Uzume
 
-A basic lib, I'm using for my projects
+A basic Haskell lib, I'm using for my projects
+
+I'll update it often (since I have an idea)
 
 ---
 
@@ -12,7 +14,7 @@ File quick description :
 
 ---
 
-Build wiht Makefile :
+Build with Makefile :
 
 ```
 make
