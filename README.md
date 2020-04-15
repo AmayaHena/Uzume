@@ -12,4 +12,17 @@ File quick description :
 
 ---
 
+Build wiht Makefile :
+
+```
+make
+```
+
+Additionals rules :
+
+```
+make + re || clean || fclean
+```
+---
+
 Documentation : Github Wiki of this repo
